@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by NshutiP (http://jsbin.com/xusenaj/7/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>French fries Recipe</title>
+<style id="jsbin-css">
+body {
+  background-color: lightyellow;
+  margin:0;
+  padding: 0;
+}
+
+p {
+  font-size: 30px;
+  text-indent: 50px;
+  text-align: justify;
+  margin-bottom: 45px;
+}
+
+p > span{
+  font-style: italic;
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0;
+}
+
+nav {
+  background-color: khaki;
+  height: auto;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  background-color: gold ;
+  border-radius: 5px;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+nav ul li:hover {
+  background-color: orange;
+}
+
+nav a {
+  text-decoration: none;
+  color: auto;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.explanatory-paragraph{
+  width: 50%;
+  padding: 0 30px;
+  margin-top: 0;
+}
+
+#instructions , #similar-recipes {
+  border-top: 10px solid ;
+  border-bottom: 10px solid;
+}
+
+.ordered-list{
+  list-style-type: upper-roman;
+}
+
+#ingredients {
+  font-size: 30px;
+  background-color: lightpink;
+  width: 250px;
+  height: 280px;
+  border-radius: 10px;
+  margin-bottom: 45px;
+  margin-left: 30px;
+}
+
+#instructions {
+  background-color: lightblue;
+  border-top-color: coral;
+  border-bottom-color: coral;
+  text-align: center;
+  font-size: 20px;
+}
+
+#finished-product {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#finished-product ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0 40px;
+  margin-bottom: 30px;
+}
+
+#finished-product ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#finished-product ul li img {
+  width: 50%;
+  height: auto;
+}
+
+#similar-recipes {
+  background-color: white;
+  border-top-color: lightblue;
+  border-bottom-color: lightblue;
+  font-size: 20px;
+}
+
+#similar-recipes ul {
+  display: block;
+  list-style: none;
+  columns: 200px 2;
+  text-align: center;
+}
+
+footer {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
+  .explanatory-paragraph {
+    width: 80%;
+    font-size: 20px;
+    color: teal;
+  }
+  
+  .explanatory-paragraph .span-two {
+    display:none;
+  }
+  
+  #finished-product ul li:last-of-type {
+    display: none;
+  }
+  
+  nav ul {
+    float: none;
+    width: 100%;
+  }
+  
+  #ingredients {
+    background-color:purple;
+  }
+  
+}
+
+@media screen and (min-width: 401px) and (max-width: 750px) {
+  .explanatory-paragraph {
+    width: 50%;
+    font-size: 25px;
+    color: lightblue;
+  }
+  
+  .explanatory-paragraph .span-two {
+    display:none;
+  }
+  
+  nav ul {
+    float: none;
+    width: 100%;
+  }
+  
+  #ingredients {
+    background-color:pink;
+  }
+  
+}
+
+@media screen and (min-width: 750px) {
+  nav ul {
+    float: none;
+    width: 100%;
+  }
+  
+  #ingredients {
+    background-color: lightpink;
+  }
+  
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+  
+  <nav>
+    <ul class="unordered-list">
+      <li><a href="">Home</a></li>
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#instructions">Instructions</a></li>
+      <li><a href="#similar-recipes">Similar Recipes</a></li>
+    </ul>
+  </nav>
+  
+  <section id="background">
+  
+  <p><h1><center>Homemade French Fries Recipe</center></h1></p>
+  
+  <main>
+  
+  <p class="explanatory-paragraph">
+    <span class="span-one">
+      French fries, or simply fries, chips, finger chips, or French-fried 
+      potatoes, are batonnet or allumette-cut deep-fried potatoes.
+    </span>
+    <span class="span-two">
+      French fries are served hot, either soft or crispy, and are 
+      generally eaten as part of lunch or dinner or by themselves 
+      as a snack, and they commonly appear on the menus of diners, 
+      fast food restaurants, pubs, and bars. They are usually salted 
+      and, depending on the country, may be served with ketchup, 
+      vinegar, mayonnaise, tomato sauce, or other local specialties.
+    </span>
+    <span class="span-three">
+      I like french fries so much because they are so tasty and they have
+      been my favorite meal ever since i was a small child.
+    </span>
+  </P>
+  <!-- Unordered list -->
+  <section id="ingredients">
+  <ul class="unordered-list">
+    <h4><u>Ingredients</u></h4>
+    <li>potatoes</li>
+    <li>vegetable oil</li>
+    <li>Salt</li>
+  </ul>
+  </section>
+
+  </main>
+  
+  </section>
+  
+  <!-- Ordered list -->
+  <section id="instructions">
+  <ol class="ordered-list">
+    <h4><u>Instructions</u></h4>
+    <li>Slice the potatoes 1/2 inch thick. &#x1F52A</li>
+    <li>Soak them cold in water for at least an hour or overnight. 🕐</li>
+    <li>Rinse them twice with cold water and pat the completely dry.</li>
+    <li> 
+      Heat oil to 300 degrees. Fry them in about 
+      6 batches for 5-6 minutes. <br> Don’t overcrowd them 
+      by placing too many in at a time, they won’t be as crispy. <br>
+      Use a slotted spoon and place on a paper towel.🍳
+    </li>
+    <li> 
+      Increase heat to 400 degrees. 
+      Fry in batches until golden brown, about 5 minutes.
+    </li>
+    <li>
+      Place them bake on paper towels and 
+      sprinkle immediately with salt. 🍟
+    </li>
+    <li>Serve with ketchup!😋</li>
+  </ol>
+  </section>
+  <!--Images of Finished product -->
+
+  <section id="finished-product">
+  
+  <center> 
+  <h4><u>Finished version of french fries</u></h4>
+  <ul class="unordered-list" >
+    <li><img src="https://i.imgur.com/DZB3S5U.jpg" alt="French fries"  ></li>
+    <li><img src="https://i.imgur.com/0dDzLF7.jpg" alt="French fries served with some ketchup"  ></li>
+  </ul>
+  </center>
+  
+  </section>
+    
+  <!--Links to similar recipes -->
+  
+  <section id="similar-recipes">
+  
+    <center><p><h4><u>Other French fries recipes</u></h4><p></center>
+    <ul class="unordered-list">
+    <li>
+      <a href="https://www.vegrecipesofindia.com/french-fries-navratri-recipe/">
+        <img src="https://i.imgur.com/UfSueps.png" alt="Dassana's Veg Recipes" />
+      </a>
+    </li>
+    <li>
+      <a href="https://www.foodnetwork.com/recipes/ree-drummond/perfect-french-fries-recipe2-2120420">
+        <img src="https://i.imgur.com/p63MZvm.png" alt="Food Network" />
+      </a>
+    </li>
+    <li>
+      <a href="https://www.cookingclassy.com/french-fries/">
+        <img src="https://i.imgur.com/DlrEhVS.png" alt="Cooking classy: Oven Baked French Fries" /> 
+      </a>
+    </li>
+    <li>
+      <a href="https://www.allrecipes.com/recipe/219634/chef-johns-french-fries/">
+        <img src="https://i.imgur.com/AOilfbi.png" alt="All Recipes: Chef John's" width = auto height = 80px />
+      </a>
+    </li>
+    <li>
+      <a href="https://thecozycook.com/homemade-french-fries/">
+        <img src="https://i.imgur.com/RbtTfSh.png" alt="Cozy Cook" width = auto height =80px />
+      </a>
+    </li>
+  </ul>
+  
+  </section>
+    
+
+  <footer>
+    Page Created by Nshuti
+  </footer>
+    
+</body>
+
+<!-- https://www.w3schools.com/default.asp -->
+</html>

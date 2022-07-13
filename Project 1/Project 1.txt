@@ -1,0 +1,1 @@
+In this course, i have learnt the various tags used in HTML and their specific use. This has provided me with the basic knowledge on how to create a simple webpage and make it presentable. The code that i created is webpage that provides information about a book called "A thousand Hills". Additionally, my webpage gives one an option of suggesting a book for me to read.
