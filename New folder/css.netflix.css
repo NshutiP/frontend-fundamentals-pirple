@@ -1,0 +1,267 @@
+body, html {
+  background-color: black;
+  color: white;
+  font-family: Arial , helvetica , sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  background-color: rgb(228, 15, 15);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+section {
+  text-align: left;
+}
+
+header {
+  background-image: url(https://i.imgur.com/SbfMnZp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+}
+
+header #logo-and-sign-in {
+  padding: 20px 50px;
+}
+
+header #logo-and-sign-in img {
+  width: 150px;
+  height: auto;
+}
+
+header #logo-and-sign-in button {
+  float: right;
+  text-align: center;
+  width: 83px;
+  height: 32px;
+  border: 0px;
+}
+
+header #unlimited-movies {
+  font-size: 30px;
+  font-style: bold;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 105px 0px 146px 0px;
+  margin-top: 0px;
+}
+
+header #unlimited-movies div:first-of-type {
+  margin: 0px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
+
+.email-label {
+  font-size: 20px;
+  font-style: bold;
+}
+
+/*.get-started {
+  
+}*/
+
+.get-started input, button {
+  display: inline-block;
+  border: 0px;
+  height: 57px;
+  box-sizing: border-box;
+}
+
+.get-started input {
+  width: 454px;
+  font-size: 15px;
+  vertical-align: bottom;
+}
+
+.get-started button {
+  width: 251px;
+  font-size: 25px;
+}
+
+.top-border {
+  border-top: 8px solid;
+  border-top-width: 100%;
+  border-color: rgb(33, 34, 34);
+}
+
+.top-border img, video {
+  margin: auto;
+}
+
+.captions {
+  font-size: 30px;
+  font-style: bold;
+  width: 50%;
+  margin: auto;
+}
+
+#enjoy-on-your-tv {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 50px 0px 40px 0px;
+ margin: 0px;
+ width: 100%;
+}
+
+#enjoy-on-your-tv .captions {
+  padding-left: 60px;
+  padding-top: 70px;
+  margin: 0px;
+  /*width:;*/
+}
+
+#enjoy-on-your-tv video {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+#download-your-shows-to-watch-offline {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 50px 30px 15px 30px;
+}
+
+#download-your-shows-to-watch-offline .captions {
+  width:48%;
+}
+
+
+#watch-everywhere {
+  display: flex;
+  padding: 90px 0px 65px 0px;
+}
+
+#watch-everywhere .captions {
+  padding-left: 60px;
+  padding-top: 20px;
+  margin: 0px;
+  width: 48%;
+}
+
+#watch-everywhere video {
+  margin: 0px;
+  padding: 0px;
+}
+  
+#get-the-netflix-kids-experience {
+  display: flex;
+  padding: 90px 30px;
+}
+
+#get-the-netflix-kids-experience .captions {
+  width: 53%;
+}
+
+#get-the-netflix-kids-experience img {
+  margin-left: 40px;
+}
+
+#frequently-asked-questions {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+#frequently-asked-questions #drop-down button {
+  background-color: rgb(41, 43, 43);
+  width: 65%;
+  height: 78px;
+  margin: 8px auto;
+  text-align: left;
+  font-size: 28px;
+  text-indent: 20px;
+  border: 0px;
+  vertical-align: middle;
+}
+
+#frequently-asked-questions #drop-down button span { 
+  font-size: 50px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+#frequently-asked-questions .dropdown-content {
+  display: none;
+}
+
+#frequently-asked-questions .questions {
+  display: list-item;
+}
+
+#frequently-asked-questions #input-email {
+  margin: 60px 0;
+}
+
+footer {
+  color: rgb(110, 116, 116);
+  height: 35%;
+}
+
+footer #links {
+  width: 75%;
+  margin: 60px auto 30px auto;
+}
+
+footer #links p {
+  font-size: 13px;
+  margin-top: 35px;
+}
+
+footer #links ul {
+  list-style: none;
+  column-count: 4;
+  padding-left: 0px;
+}
+
+footer #links ul li {
+  font-size: 13px;
+  padding: 10px 0px;
+}
+
+footer #links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 940px) {
+  #enjoy-on-your-tv, 
+  #download-your-shows-to-watch-offline,
+  #watch-everywhere,
+  #get-the-netflix-kids-experience {
+    text-align: center;
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+}
+
+/*@media screen and (max-width: 800px) {
+  #enjoy-on-your-tv{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 40px 0px;
+    margin: 0 auto;
+    max-width: 1100;
+  } 
+}*/
+
+
+
+
+
+
+
+
+
+
+
